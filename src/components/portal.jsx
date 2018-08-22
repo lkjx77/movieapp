@@ -3,16 +3,6 @@ import Header from "./header";
 import Contents from "./contents";
 
 class Portal extends Component {
-  state = {
-    showModal: false
-  };
-  handleOpenModal = () => {
-    this.setState({ showModal: true });
-  };
-
-  handleCloseModal = () => {
-    this.setState({ showModal: false });
-  };
 
   render() {
     return (
