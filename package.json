@@ -59,6 +59,5 @@
     "@storybook/addons": "^3.4.11",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0"
-  },
-  "proxy": "http://localhost:3000"
+  }
 }

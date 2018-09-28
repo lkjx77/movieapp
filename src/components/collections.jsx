@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import Modal from "react-modal";
+import React, { Component } from 'react';
+import Modal from 'react-modal';
 
 class Collections extends Component {
   state = {
     showModal: false
   };
+
   handleOpenModal = () => {
     this.setState({ showModal: true });
   };
